@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h2><u>Sample Output:</u></h2>
+    <h3>Figuer1.HTML form for user input</h3>
+    <p>BCS350 Assignment3--Student Name</p>
+    <H2>Create Your Profile</H2>
+    <form >
+        <label for="name">First Name</label>
+        <input type="text" id="firstname" placeholder="Enter name" required>
+        <br><br>
+        <label for="name">Last Name</label>
+        <input type="text" id="name" placeholder="Enter name" required><br><br>
+        <label for="mail">E-mail</label>
+        <input type="email" name="mail" id="mail"><br><br>
+
+        <label for="classStanding">Class Standing</label>
+        <select id="classStanding" name="classStanding">
+            <option value="freshman">Freshman</option>
+            <option value="Batman">Batman</option>
+            <option value="superman">Superman</option>
+        </select><br><br>
+        <!--School-->
+        <label>School
+            :
+        </label>
+        <input type="radio" id="arts" name="School" value="arts">
+        <label for="arts">School of Arts of science</label><br>
+        <input type="radio" id="Business" name="School" value="Business">
+        <label for="Business">School of Business</label><br>
+        <input type="radio" id="Engineering" name="School" value="Engineering">
+        <label for="arts">School of Engineering technology</label><br>
+        <input type="radio" id="health science" name="School" value="health science">
+        <label for="arts">School of Health science</label><br><br>
+        <!--Extra-->
+        <label>Extra</label>
+        <input type="checkbox" id="veteran" name="Extra" value="veteran">
+        <label for="veteran">Veteran</label><br><br>
+        <input type="checkbox" id="Transer" name="Extra" value="Transer">
+        <label for="Transer">Transer Student</label><br><br>
+        <input type="checkbox" id="International" name="Extra" value="International">
+        <label for="International">International Student</label><br><br>
+        <!--program other information-->
+        <label for="programinfo">Program And Other information you like to share:</label><br><br>
+        <textarea id="programinfo" rows="5" cols="20"></textarea><br><br>
+        <!--Profile pic-->
+        <label for="profilepic">Upload your profile picture like (Jpg,png,TIF):</label>
+        <input type="file" id="profilepic" name="profilepic"><br><br>
+        <!--Submit-->
+        <input type="submit">
+        <!--reset-->
+        <input type="Reset">
+
+    </form>
+</body>
+</html>
